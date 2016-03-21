@@ -1,5 +1,6 @@
-This file has been created for the development purpose and running commands with GIT
-bc.com
+Note#
+	1) . in Git, is used to refer all the files.
+	2) 
 
 Git General:
 
@@ -17,7 +18,18 @@ Git General:
 		- git push origin master
 		Note#: Pushes the changes in your local repository up to the remote repository you specified as the origin
 
-	- 
+Advance GIT Commands:
+	
+	1) If you have deleted a file, from your current working branch then recover that file before doing any additional commuits Using :
+		- git reset HEAD file-name
+		- git checkout -- abc.php
+	OR
+	- This command will reset the head and unstage all of the changes:
+		- git reset HEAD .
+	- Then run this to restore all of the files:
+		- git checkout .
+
+	2) 
 ________________________________________________________________________________________________________________________________________
 
 
