@@ -29,7 +29,8 @@ Advance GIT Commands:
 	- Then run this to restore all of the files:
 		- git checkout .
 
-	2) 
+	2) compare local git branch with remote branch:
+		- git diff <local branch> <remote>/<remote branch>
 ________________________________________________________________________________________________________________________________________
 
 
